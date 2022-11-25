@@ -416,6 +416,51 @@ cc(2);cc(3);cc(7);cc('K');cc('A');
 console.log(cc(2,"K"))
 
 // Built a JAVA SCRIPT objects
+var ourdog = {
+    "name " : "UTSAV" ,
+    "legs"  : 4 ,
+    "tails" : 1 ,
+    "friends" : "lots of",
+};
+console.log(ourdog);
+
+var mydog = {
+    "name" : "UTSAV" ,
+    "friends" : "Nobody",
+};
+console.log(mydog);
+
+// Accessing Object Properties with DOT notation
+var testobj = {
+    "hat" : "ballcap",
+    "shirt" : "jersy",
+    "shoes" : "cleats",
+}
+var hatvalue = testobj.hat ;
+var shirtvalue = testobj.shirt ;
+console.log(hatvalue);
+console.log(shirtvalue);
+
+// Accessing Object Properties with bracket notation 
+var testobj = {
+    "an entree" : "humburger",
+    "my side " : "veggies",
+    "the drink " : "water",
+}
+var entreeValue = testobj["an entree"];
+var sideValue  = testobj["my side"] ;
+console.log(entreeValue);
+console.log(sideValue);
+
+// Accessing Object Properties with Variables 
+
+
+
+
+
+
+
+
 
 
 
