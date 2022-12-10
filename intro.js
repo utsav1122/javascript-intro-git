@@ -453,6 +453,67 @@ console.log(entreeValue);
 console.log(sideValue);
 
 // Accessing Object Properties with Variables 
+var testobj = {
+    10 : "Messi",
+    11 : "Di Maria",
+    1 : "Lisnardo Martinez",
+};
+var playernumber = 11;
+var player = testobj[playernumber];
+console.log(testobj);
+
+//Updating Object Properties
+var ourDog = {
+    "name" : "Camper",
+    "legs" : "2",
+    "tails" : "1",
+};
+ourDog.name ="Happy Camper";
+console.log(ourDog);
+
+// We use dot(.) notation to set object properties to a new value
+
+// Add new Properties to an Object
+var ourDog = {
+    "name" : "Camper",
+    "legs" : "2",
+    "tails" : "1",
+};
+ourDog["bark"] = "Wooffff!"
+console.log(ourDog);
+
+// Delete Properties from Object 
+var ourDog = {
+    "name" : "Camper",
+    "legs" : "2",
+    "tails" : "1",
+};
+delete ourDog.bark ;
+console.log(ourDog);
+
+// Using Objects for Lookups 
+function phoneticLookup(val) {
+    var result = "";
+    var lookup = {
+         "alpha ": "Adams",
+         "bravo ": "Boston",
+         "charlie": "Chicago",
+         "delta": "Denvar",
+         "echo ": "Easy",
+         "foxtrot": "frank"
+    };
+     result = lookup(val);
+     return result ;
+}
+console.log(phoneticLookup(echo));
+
+
+
+
+
+
+
+
 
 
 
