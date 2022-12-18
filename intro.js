@@ -1,3 +1,31 @@
+// String in JS :
+//In JavaScript, Strings are values made up of text and can contain letters, numbers, symbols, punctuation, and even emojis!
+
+// Numbers in JS :
+// Numbers are values that can be used in mathematical operations. You don’t need any special syntax for numbers — just write them straight into JavaScript.
+
+// Booleans :
+// In JavaScript, a boolean value is one that can either be TRUE or FALSE. If you need to know “yes” or “no” about something, then you would want to use the boolean function. It sounds extremely simple, but booleans are used all the time in JavaScript programming, and they are extremely useful. Anything that needs to be “on” or “off”, “yes” or “no”, “true” or “false”, or which just has a temporary purpose, is usually a good fit for booleans.
+
+// Operators :
+// Operators are the symbols between values that allow different operations like addition, subtraction, multiplication, and more.
+
+// Variables :
+// Variables are named values and can store any type of JAVA SCRIPT value
+
+// Function :
+// JAVA SCRIPT function are reusable blocks of code that perform a specific task , taking some from of input and returning the output
+
+// Conditionals :
+// Conditional statements control behaior in JS and determine whether or not pieces of code can run . There are multiple differnt types of conditional in JS
+
+// Array :
+// Arrays are container-like values that can hold other values. The values inside an array are called elements.
+// Array elements don’t all have to be the same type of value. Elements can be any kind of JavaScript value — even other arrays.
+
+// Objects :
+// JS Objects are variavles that contain multiple data  values The value within a JS objects are known as properties. Object use keys to name values , much like how  is done with variables.
+
 // Local Scope and function
 function myLocalScope(){
     var myVar = 10;
@@ -493,8 +521,8 @@ console.log(ourDog);
 
 // Using Objects for Lookups 
 function phoneticLookup(val) {
-    var result = "";
-    var lookup = {
+      var result = "";
+      var lookup = {
          "alpha ": "Adams",
          "bravo ": "Boston",
          "charlie": "Chicago",
@@ -505,7 +533,18 @@ function phoneticLookup(val) {
      result = lookup(val);
      return result ;
 }
-console.log(phoneticLookup(echo));
+console.log(phoneticLookup(aplha));
+
+// Testing Objects for Properties
+var myobj = {
+    gift : "Mesii T-Shirt",
+    pet : "Tommy",
+    bed : "1....",
+};
+function checkObj(checkProp){
+    return "Change me!";
+}
+console.log(checkObj(gift));
 
 
 
